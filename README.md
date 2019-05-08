@@ -22,11 +22,11 @@ https://www.spec.org/cpu2017/Docs/install-guide-unix.html#s4
 https://www.spec.org/cpu2017/
 
 5. Integrating SPEC 2017 with Gem5
- 1. Copy spec_cpu2017.sh to gem5 folder.
- 1. Copy spec2017_config.py to location: ~/gem5/configs/example/
- 1. Copy spec2017_benchmark.py to location: ~/gem5/configs/example/
- 1. Move to gem5 folder and run command: chmod +x ./spec_cpu2017.sh
- 1. chmod +x ./spec_cpu2017.sh $BENCHMARK /home/ramrahimwalmart11/gem5out
+    1. Copy spec_cpu2017.sh to gem5 folder.
+    1. Copy spec2017_config.py to location: ~/gem5/configs/example/
+    1. Copy spec2017_benchmark.py to location: ~/gem5/configs/example/
+    1. Move to gem5 folder and run command: chmod +x ./spec_cpu2017.sh
+    1. chmod +x ./spec_cpu2017.sh $BENCHMARK /home/ramrahimwalmart11/gem5out
  
  6. Testing Basic Prefeching Models in Classic Memory Model
  > Move to gem5 directory
