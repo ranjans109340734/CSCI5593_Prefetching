@@ -12,11 +12,8 @@ sudo apt install scons build-essential git m4 scons zlib1g zlib1g-dev libprotobu
 git clone https://gem5.googlesource.com/public/gem5
 
 3. Building gem5 on the system
-
-a. change to gem5 directory.
-
-b. Run this commandscons build/X86/gem5.opt -j 9
-
-c. Test gem5 by running your first Hello World Program: build/X86/gem5.opt configs/example/se.py -c tests/test-progs/hello/bin/x86/linux/hello
+   1. a. change to gem5 directory.
+   1. b. Run this commandscons build/X86/gem5.opt -j 9
+   1. c. Test gem5 by running your first Hello World Program: build/X86/gem5.opt configs/example/se.py -c tests/test-progs/hello/bin/x86/linux/hello
 
 
