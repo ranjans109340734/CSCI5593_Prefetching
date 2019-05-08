@@ -1,5 +1,5 @@
 # CSCI5593_Prefetching
-Study and implementation of Prefetching algorithms
+**Study and implementation of Prefetching algorithms**
 
 For our current project we are using Google Cloud Compute Engine with Ubuntu 18.04 Operating System.
 gem5 was installed and various configurations were build on this machine.
