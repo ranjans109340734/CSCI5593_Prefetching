@@ -37,7 +37,7 @@ https://www.spec.org/cpu2017/
  
  7. To run with SPEC CPU 2017 Benchmarrks run below command:
     1. Move to gem5 directory.
-    1. Run command: ./spec_cpu2017.sh <benchmark name> <full output directory path>
+    1. Run command: ./spec_cpu2017.sh benchmark_name full_output directory_path
     1. Output can be verified at output_directory_path/stats.txt
 
 
