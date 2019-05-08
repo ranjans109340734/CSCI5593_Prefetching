@@ -29,15 +29,15 @@ https://www.spec.org/cpu2017/
     1. chmod +x ./spec_cpu2017.sh $BENCHMARK /home/ramrahimwalmart11/gem5out
  
  6. Testing Basic Prefeching Models in Classic Memory Model
- > Move to gem5 directory
- > Build X86 system with command: scons build/X86/gem5.opt -j 9
- > L1, L2, other cache properties can be modified in file: ~gem5/configs/example/memtest.py
- > Run command: ./build/X86/gem5.opt configs/example/memtest.py -l 100000
- > Output can be verified at ~gem5/m5out/stats.txt
+    1. Move to gem5 directory
+    1. Build X86 system with command: scons build/X86/gem5.opt -j 9
+    1. L1, L2, other cache properties can be modified in file: ~gem5/configs/example/memtest.py
+    1. Run command: ./build/X86/gem5.opt configs/example/memtest.py -l 100000
+    1. Output can be verified at ~gem5/m5out /stats.txt
  
  7. To run with SPEC CPU 2017 Benchmarrks run below command:
- > Move to gem5 directory.
- > Run command: ./spec_cpu2017.sh <benchmark name> <full output directory path>
- > Output can be verified at output_directory_path/stats.txt
+    1. Move to gem5 directory.
+    1. Run command: ./spec_cpu2017.sh <benchmark name> <full output directory path>
+    1. Output can be verified at output_directory_path/stats.txt
 
 
